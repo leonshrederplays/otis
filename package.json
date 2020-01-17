@@ -1,0 +1,26 @@
+{
+  "name": "otis",
+  "version": "0.9.0",
+  "description": "Bot für KitTV",
+  "main": "index.js",
+  "engines": {
+    "node": "12.13.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js debug"
+  },
+  "author": "Leon|ShrederPlays",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "ffmpeg": "^0.0.4",
+    "libsodium-wrappers": "^0.7.6",
+    "opusscript": "0.0.7",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^1.0.6"
+  }
+}
